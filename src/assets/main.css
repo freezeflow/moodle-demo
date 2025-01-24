@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+.loader{
+  animation: loader 3.5s ease-in forwards;
+}
+
+@keyframes loader {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 99%;
+  }
+}
+
+.teacherSecondNav{
+  height: 100vh;
+}
+
+.teacherSecondNav[id='closedNav']{
+  animation: closeNav 1.5s linear forwards;
+  transform: translateX(-200%);
+}
+
+@keyframes closeNav {
+  to{
+    transform: translateX(-200%);
+  }
+}
+
+.deleteCard{
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.dropdownWidth{
+  width: 60%
+}
+
+.chatHeight{
+  height: 85vh;
+}
+
+@media (max-width:768px) {
+  .dropdownWidth{
+    width: 60%
+  }
+}
