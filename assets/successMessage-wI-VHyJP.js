@@ -1,0 +1,1 @@
+import{o as s,c,a as r,t}from"./index-CwIRFKx0.js";const a={class:"flex flex-row gap-3"},o={class:"h-8 w-full px-2 flex items-center justify-center bg-green-300 border border-green-900 rounded"},i={__name:"successMessage",props:{successMessage:String},setup(e){return(n,l)=>(s(),c("div",a,[r("p",o,t(e.successMessage),1)]))}};export{i as _};

@@ -1,0 +1,1 @@
+import{o as s,c as o,a as r,t as a}from"./index-CwIRFKx0.js";const n={class:"flex flex-row gap-3"},i={__name:"error",props:{errorMessage:String},setup(t){return(l,e)=>(s(),o("div",n,[e[0]||(e[0]=r("div",{class:"w-6 h-6 rounded-full bg-red-600 text-white text-center"},"!",-1)),r("p",null,a(t.errorMessage),1)]))}};export{i as _};
